@@ -3,3 +3,42 @@
 html, body {
 	margin: 0;
 }
+
+ul {
+  list-style-type: none;
+  
+}
+
+li {
+  float: left;
+}
+
+.top-right {
+	float: right;
+}
+
+li a {
+  display: block;
+  color: #505050;
+
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+	clear: left;
+}
+
+#footer {
+	background-color: aqua;
+	border: 2px solid red;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
