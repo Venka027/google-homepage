@@ -5,39 +5,43 @@ html, body {
 }
 
 div.top-container  {
-	border: 2px solid red;
-	background-color: red;
 	position: relative;
 	top: 0px;
 	height: 200px;
-	width: 100%
+	width: 100%;	
 }
 
 div.top-right {
 	position: absolute;
-     top: 0px;
-     right: 0;
-     width: 200px;
-     height: 100px;
-     border: 3px solid #73AD21;
+	right: 50px;
+	margin: 22px 0 0 10.5px;
 }
 
 div.top-left {
 	position: absolute;
-     top: 20px;
-     left: 20px;
-     width: 200px;
-     height: 100px;
-     border: 3px solid #73AD21;
-	
+     margin: 22px 0 0 10.5px;
 }
 
 
 li {
 	float: left;
+}
+
+ul li {
 
 }
 
+ul li  a {
+	color: #505050;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	padding-left: 15px;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
 
 
 
