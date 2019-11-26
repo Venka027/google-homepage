@@ -10,9 +10,8 @@ html, body {
 div.top-container  {
 	position: relative;
 	top: 0px;
-	bottom: 0;
 	width: 100%;
-	background-color: red;
+	height: 200px;
 }
 
 div.top-right {
@@ -105,7 +104,7 @@ li button {
 }
 
 li button:hover {
-	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     background-color: #f8f8f8;
     border: 1px solid #c6c6c6;
     color: #222;
@@ -113,46 +112,32 @@ li button:hover {
 
 div.bottom-container{
 	position: absolute;
-	left: 20px;
 	bottom: 0;
-
-
-}
-
-
-	
-	
-	
-/*
-	
-	border-top: 1px solid #c6c6c6;
-	bottom: 36px;
+	height: 80px;
 	width: 100%;
-	border-bottom: 1px solid #c6c6c6;
 	background-color: #f2f2f2;
-
-
-}
-
-
-/*
-div.bottom-container p {
-	margin: 15px 0 15px 33px;
-}
-
-div.bottom-right {
-	position: absolute;
-	right: 50px;
-	bottom: -25px;
-	padding-top: 8px;
-	
-	
 }
 
 div.bottom-left {
 	position: absolute;
-	margin: 10px 10px 0 17px;
-	bottom: -25px;
-
+	left: 15px;
+	top: 50px;
+	padding-right: 15px;
 }
+
+div.bottom-right {
+	position: absolute;
+	right: 15px;
+	top: 50px;
+}
+
+div.bottom-container p {
+	color: #505050;
+	margin: 15px 0 0 30px;
+}
+
+div hr {
+	color: #e4e4e4;
+}
+
 
