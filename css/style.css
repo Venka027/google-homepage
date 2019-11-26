@@ -119,13 +119,13 @@ div.bottom-container {
 }
 
 div.bottom-container p {
-	margin: 13px 0 13px 35px;
+	margin: 15px 0 30px 33px;
 }
 
 div.bottom-right {
 	position: absolute;
 	right: 50px;
-	bottom: -22;
+	bottom: -18px;
 	
 }
 
@@ -133,5 +133,7 @@ div.bottom-left {
 	position: absolute;
 	margin: 10px 10px 0 17px;
 	bottom: -22px;
+	border: 1px solid red;
+	padding: 10px;
 }
 
