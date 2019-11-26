@@ -2,15 +2,17 @@
 
 html, body {
 	margin: 0;
-	font-family: arial, sans-serif;
+	font-family: arie, sans-serif;
 	font-size: 13px;
+	height: 100%;
 }
 
 div.top-container  {
 	position: relative;
 	top: 0px;
-	height: 200px;
-	width: 100%;	
+	bottom: 0;
+	width: 100%;
+	background-color: red;
 }
 
 div.top-right {
@@ -109,31 +111,48 @@ li button:hover {
     color: #222;
 }
 
-div.bottom-container {
+div.bottom-container{
 	position: absolute;
-	border-top: 1px solid #c6c6c6;
-	border-bottom: 1px solid #c6c6c6;
-	bottom: 30px;
-	width: 100%;
+	left: 20px;
+	bottom: 0;
+
 
 }
 
+
+	
+	
+	
+/*
+	
+	border-top: 1px solid #c6c6c6;
+	bottom: 36px;
+	width: 100%;
+	border-bottom: 1px solid #c6c6c6;
+	background-color: #f2f2f2;
+
+
+}
+
+
+/*
 div.bottom-container p {
-	margin: 15px 0 30px 33px;
+	margin: 15px 0 15px 33px;
 }
 
 div.bottom-right {
 	position: absolute;
 	right: 50px;
-	bottom: -18px;
+	bottom: -25px;
+	padding-top: 8px;
+	
 	
 }
 
 div.bottom-left {
 	position: absolute;
 	margin: 10px 10px 0 17px;
-	bottom: -22px;
-	border: 1px solid red;
-	padding: 10px;
+	bottom: -25px;
+
 }
 
