@@ -112,23 +112,26 @@ li button:hover {
 div.bottom-container {
 	position: absolute;
 	border-top: 1px solid #c6c6c6;
-	bottom: 0;
+	border-bottom: 1px solid #c6c6c6;
+	bottom: 30px;
 	width: 100%;
 
 }
 
 div.bottom-container p {
-	margin: 15px 0 20px 35px;
-}
-
-div.bottom-container hr {
-	margin: 0 0 20px 0px;
-	background-color:  color: #c6c6c6;
+	margin: 13px 0 13px 35px;
 }
 
 div.bottom-right {
 	position: absolute;
 	right: 50px;
-	margin: 22px 0 0 10.5px;
+	bottom: -22;
+	
+}
+
+div.bottom-left {
+	position: absolute;
+	margin: 10px 10px 0 17px;
+	bottom: -22px;
 }
 
