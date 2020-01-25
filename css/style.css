@@ -1,143 +1,69 @@
-/* CSS */
-
-html, body {
-	margin: 0;
-	font-family: arie, sans-serif;
-	font-size: 13px;
-	height: 100%;
+* {
+    margin: 0;
 }
 
-div.top-container  {
-	position: relative;
-	top: 0px;
-	width: 100%;
-	height: 200px;
+body {
+    background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: cover;
 }
 
-div.top-right {
-	position: absolute;
-	right: 50px;
-	margin: 22px 0 0 10.5px;
+h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3em;
 }
 
-div.top-left {
-	position: absolute;
-     margin: 22px 0 0 10.5px;
+span.highlight {
+    background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), white 25%, rgba(255, 255, 255, 0));
 }
 
-
-li {
-	float: left;
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3em;
+    margin-left: 50px;
 }
 
-ul li  a {
-	color: #505050;
-	text-decoration: none;
-	font-family: arial, sans-serif;
-	font-size: 13px;
-	padding-left: 15px;
+.main {
+    position: relative;
+    height: 500px;
+    
 }
 
-li a:hover {
-	text-decoration: underline;
+.rules {
+    position: absolute;
+    width: 50%;
+    left: 50px;
+    top: 80px;
+    font-size: 2em;
 }
 
-div.main-content {
-	position: relative;
-	width: 100%;
-	height: 300px;
+div.rules-img {
+    position: absolute;
+    right: 100px;
+    top: 80px;
+    
 }
 
-div.mc-logo {
-	position: absolute;
-	margin-left: 580px;
-	
-}
-
-div.mc-search {
-	position: absolute;
-	left: 400px;
-	top: 120px;
-	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	width: 600px;
-	height: 45px;
-	border-radius: 50px;
-	border: 1px solid #c6c6c6;
-	
-}
-
-input[type=text] {
-  width: 500px;
-  border: 1px solid red;
-  height: 35px;
-  margin: 3.5px 0 0 40px;
-  border: none;
+.start {
+    position: absolute;
+    bottom: 0;
+    left: 650px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 44px;
+    outline: none;
+    background-color: black; 
+    border: 2px solid black;
+    
 
 }
 
-input[type=text]:active, input[type=text]:focus  {
-	background-color: white;
-	border: none;
+.start:hover {
+    background-color: transparent;
+    color: black;
+    transition-duration: 0.4s;
+    outline: none;
 }
-
-div.mc-buttons {
-	position: absolute;
-	left: 570px;
-	top: 196px;
-	
-}
-
-.mc-messages {
-	position: absolute;
-	left: 610px;
-	top: 260px;
-}
-
-li button {
-	color: #505050;
-	margin-left: 10px;
-	background-color: #f2f2f2;
-	border: 1px solid #f2f2f2;
-	padding: 10px 20px;
-	border-radius: 3px;
-	border
-}
-
-li button:hover {
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    background-color: #f8f8f8;
-    border: 1px solid #c6c6c6;
-    color: #222;
-}
-
-div.bottom-container{
-	position: absolute;
-	bottom: 0;
-	height: 80px;
-	width: 100%;
-	background-color: #f2f2f2;
-}
-
-div.bottom-left {
-	position: absolute;
-	left: 15px;
-	top: 50px;
-	padding-right: 15px;
-}
-
-div.bottom-right {
-	position: absolute;
-	right: 15px;
-	top: 50px;
-}
-
-div.bottom-container p {
-	color: #505050;
-	margin: 15px 0 0 30px;
-}
-
-div hr {
-	color: #e4e4e4;
-}
-
 
